@@ -1,8 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
-import './style/tools/reset'
-import './style/screen'
+import './style/screen.scss'
 import App from './App'
 import reportWebVitals from './reportWebVitals'
 
