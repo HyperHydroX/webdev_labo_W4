@@ -10,9 +10,9 @@
   --global-color-theme: orange;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --global-text-color: var(--global-color-light);
-    --global-background: var(--global-color-dark);
-  }
-}
+// @media (prefers-color-scheme: dark) {
+//   :root {
+//     --global-text-color: var(--global-color-light);
+//     --global-background: var(--global-color-dark);
+//   }
+// }

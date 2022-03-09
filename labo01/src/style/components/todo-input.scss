@@ -1,3 +1,28 @@
 .c-todo-input {
   // background: hotpink;
+
+  &__container {
+    display: flex;
+    justify-items: baseline;
+  }
+
+  &__button {
+    margin-right: 0.8rem;
+  }
+
+  &__icon {
+    color: var(--global-color-theme);
+    fill: currentColor;
+  }
+
+  &__input {
+    width: max-content;
+    color: var(--global-text-color);
+    font-size: 1.8rem;
+    flex: 1;
+  }
+
+  &__dropdown {
+    margin-top: 0.8rem;
+  }
 }
